@@ -1,0 +1,57 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+  font-family: 'Cormorant Garamond', serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+main p {
+  margin-top: 5px;
+  margin-right: 150px;
+  font-size: 1.5rem;
+  color: red;
+  font-style: italic;
+}
+
+h2{
+  font-size: 3rem;
+}
+.drinkInfo {
+  margin: 50px auto;
+  width: 80%;
+  font-size: 2rem;
+  
+}
+
+img{
+  display: block;
+  border: white solid 2px;
+  margin: 0 140px 50px 140px;
+  width: 400px;
+  float: right;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
